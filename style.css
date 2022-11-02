@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c81f34;
+    color: #fff;
+}
+.logo{
+    position: relative;
+    top: 2px;
+    left: 15px;
+}
+.logo-img{
+    width: 65px;
+    border-radius: 50% ;
+}
+
+.header-menu, .login-menu{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.header-menu{
+    display: flex;
+    align-items: flex-end;
+}
+.header-menu-item{
+    font-weight: 600;
+    font-size: 0.8rem ;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: .3s;
+    border-top-right-radius:5px ;
+    border-top-left-radius: 5px;
+
+}
+.header-menu-item:hover{
+    background-color:   rgba(255, 255, 255, 0.8);
+    color: #950E08;
+}
+
+.login-menu{
+    position: relative;
+    right: 5px;
+    font-size: 0.9rem;
+}
+.login-btn, .register-btn{
+    cursor: pointer;
+}
+
+
+
+.top-menu-wrap{
+    display: flex;
+    justify-content: center;
+    background-color: #950E08;
+}
+.top-menu{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.top-menu-item{
+    font-size: 0.7rem;
+    padding: 8px;
+    cursor: pointer;
+}
+.top-menu-item:hover{
+    background-color:   #ffd477;
+    color: #950E08;
+}
+.product-item-img img{
+    width: 150px;
+    height: 150px;
+}
